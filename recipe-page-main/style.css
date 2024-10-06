@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #F3E5D8;
+
+}
+
+.card {
+    max-width: 750px;
+
+
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 50px auto;
+    inset: 0px;
+    border-radius: 10px;
+    padding: 2rem;
+
+
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.para-content {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-family: cursive;
+    color: #9b9894;
+}
+
+/*inner div */
+
+.inner-div {
+    max-width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #FFF7FC;
+    margin-bottom: 1rem;
+
+}
+
+/* list-1-heading */
+.list-h4 {
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    color: #993660;
+    margin: 0px;
+
+}
+
+/* list-1 */
+.list-li-sty {
+
+    font-weight: 800;
+    color: #696054;
+}
+
+.list-1 li {
+
+    padding-bottom: 0.4rem;
+    color: #605a52;
+
+
+}
+
+/* list-2 */
+
+.list-2-h {
+    color: #94482f;
+
+}
+
+.list-2 {
+    color: #605a52;
+    font-family: cursive;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+
+}
+
+/* list-3 */
+.list-3-h {
+    color: #94482f;
+}
+
+.list-3 li {
+
+    padding-bottom: 0.6rem;
+
+}
+
+.list-3 {
+    color: #605a52;
+    font-family: cursive;
+    font-size: 1rem;
+    padding-left: 1rem;
+
+
+}
+
+ol li::marker {
+    color: #94482f;
+    font-weight: 700;
+
+}
+
+/* list-4 */
+.list-4-h {
+    color: #94482f;
+
+}
+
+.list-4-p {
+    font-size: 0.9rem;
+}
+
+/* table */
+.table-style {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    color: #605a52;
+    font-weight: 800;
+}
+
+.table-sty {
+    color: #94482f;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bolder;
+}
